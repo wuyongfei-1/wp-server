@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-convert-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-download-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-message-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-persistence-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-share-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wp-uploading-server" charset="UTF-8" />
+  </component>
+</project>

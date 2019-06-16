@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wp-convert-server" />
+        <module name="wp-download-server" />
+        <module name="wp-eureka-server" />
+        <module name="wp-message-server" />
+        <module name="wp-persistence-server" />
+        <module name="wp-server" />
+        <module name="wp-share-server" />
+        <module name="wp-uploading-server" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
