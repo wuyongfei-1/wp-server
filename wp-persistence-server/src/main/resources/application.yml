@@ -4,7 +4,7 @@ spring:
   application:
     name: wp-persistence-server
   datasource:
-      url: jdbc:mysql://127.0.0.1/o2o?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&useSSL=false
+      url: jdbc:mysql://127.0.0.1/awp?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&useSSL=false
       username: root
       password: 123456
   rabbitmq:
@@ -28,6 +28,7 @@ spring:
 # mybatis配置
 mybatis:
   mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.awp.persistence.dto
   configuration:
-    map-underscore-to-camel-case: false
+    map-underscore-to-camel-case: true
     auto-mapping-behavior: full
