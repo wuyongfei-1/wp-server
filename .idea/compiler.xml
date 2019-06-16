@@ -16,5 +16,15 @@
         <module name="wp-uploading-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="wp-convert-server" target="1.8" />
+      <module name="wp-download-server" target="1.8" />
+      <module name="wp-eureka-server" target="1.8" />
+      <module name="wp-message-server" target="1.8" />
+      <module name="wp-persistence-server" target="1.8" />
+      <module name="wp-server" target="1.8" />
+      <module name="wp-share-server" target="1.8" />
+      <module name="wp-uploading-server" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
