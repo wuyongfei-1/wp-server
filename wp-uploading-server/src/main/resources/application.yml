@@ -1,0 +1,12 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: wp-uploading-server
+  rabbitmq:
+    addresses: 127.0.0.1
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8888/eureka/

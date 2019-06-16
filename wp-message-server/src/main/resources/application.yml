@@ -1,0 +1,12 @@
+server:
+  port: 8765
+spring:
+  application:
+    name: wp-message-server
+  rabbitmq:
+    addresses: 127.0.0.1
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8888/eureka/
